@@ -20,7 +20,7 @@ export default function Cart() {
       setCartdata(updatedCartData);
       // console.log('cart data:',filterdata)
     }
-  }, [trigger]);
+  }, [trigger,data]);
 
   const totalPrice = cartdata.reduce((sum, val) => sum + val.price,0);
   const finaltotal = totalPrice + 50;
