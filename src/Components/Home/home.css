@@ -1,0 +1,114 @@
+*{
+    scrollbar-width: none;
+}
+.home-main{
+    background-color: #a7daff;
+}
+.img{
+    position: relative;
+}
+.main-img{
+    height: 90vh;
+    width: 100%;
+    background-image: url('../../Images/game_1.jpg');
+    background-size: cover;
+}
+.img-shad{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    background-color: #81cbff3d;
+}
+.title-text h1{
+    font-size: 45px;
+}
+.title-text p{
+    font-size: 25px;
+}
+.title-text{
+    width: 70%;
+    text-align: center;
+    color: black;
+    /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
+}
+.home-btn{
+    text-decoration: none;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 25px black;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #000000;
+}
+.img1{
+    height: 350px;
+    width: 350px;
+    background-image: url('../../Images/minecraft.jpeg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.img2{
+    height: 350px;
+    width: 350px;
+    background-image: url('../../Images/freefire.jpeg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.img3{
+    height: 350px;
+    width: 350px;
+    background-image: url('../../Images/asphalt.jpeg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.img1-text{
+    height: 350px;
+    text-align: justify;
+}
+.img1-text p span{
+    color: #0046a8;
+}
+.logo-title{
+    padding: 50px 0;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.logo1{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../Logos/PlayStation_Icon.png);
+    background-size: cover;
+}
+.logo2{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../Logos/Epic_Games.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo3{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../Logos/XBOX_Black_Icon.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo4{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../Logos/Nintendo_Switch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo5{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../Logos/stream.png);
+    background-size: cover;
+}

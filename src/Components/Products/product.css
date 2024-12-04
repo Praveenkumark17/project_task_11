@@ -1,0 +1,84 @@
+.product-main{
+    background-color: #a7daff;
+}
+.pro-title{
+   background-color: #58b5f8;
+   width: 89%;
+   border-radius: 10px;
+   color: #001360;
+   height: 10vh;
+}
+.product-list{
+    background-color: #58b5f8;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 30px 10px;
+    border-radius: 10px;
+}
+.product1{
+    background-color: #d7ecfb;
+    padding: 10px;
+    border-radius: 5px;
+}
+.game{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.game1{
+    background-image: url('../../Images/Game_images/fortnite.jpeg');
+    background-position: center;
+}
+.game2{
+    background-image: url('../../Images/Game_images/pubg.jpg');
+    background-position: center;
+}
+.game3{
+    background-image: url('../../Images/Game_images/nfs_unbound.jpg');
+    background-position: left;
+}
+.game4{
+    background-image: url('../../Images/Game_images/asphalt_9.jpg');
+    background-position: center;
+}
+.game5{
+    background-image: url('../../Images/Game_images/gta5.jpg');
+    background-position: center;
+}
+.game6{
+    background-image: url('../../Images/Game_images/minecraft.jpg');
+    background-position: top center;
+}
+.game7{
+    background-image: url('../../Images/Game_images/black_wang.jpeg');
+    background-position: top center;
+}
+.game8{
+    background-image: url('../../Images/Game_images/godofwar.jpg');
+    background-position: top center;
+}
+.buy{
+    height: 40px;
+    width: 250px;
+    margin-right: 10px;
+    border: 2px solid #184fb7;
+    border-radius: 7px;
+    background-color: #d7ecfb;
+    color: #184fb7;
+}
+.cart{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.loader{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,121 @@
+.cart-main{
+    background-color: #a7daff;
+}
+.cart-title{
+    background-color: #58b5f8;
+    height: 10vh;
+    border-radius: 10px;
+    color: #001360;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 0 15px;
+}
+.cart-box{
+    grid-column: 1/3;
+}
+.cart-box-title{
+    color: #001360;
+}
+.pay-box{
+    border-radius: 5px;
+    background-color: #bee4ff;
+}
+.empty-cart{
+    height: 70vh;
+    background-color: #58b5f8;
+    border-radius: 10px;
+}
+.short{
+    color: #01209d;
+    cursor: pointer;
+}
+.line{
+    height: 2px;
+    background-color: #001360;
+}
+.cart-profile{
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Images/9svzjxch.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+.card-input{
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border: 2px solid #001360;
+    border-radius: 5px;
+    background-color: #bee4ff;
+    padding: 0 20px;
+}
+.card-btn{
+    height: 40px;
+    width: 100%;
+    border: 2px solid #001360;
+    border-radius: 5px;
+    background-color: #001360;
+    color: #bee4ff;
+}
+
+
+
+.list-title{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+}
+.list-item{
+    /* background-color: red; */
+    height: 54vh;
+    overflow-y: scroll;
+}
+.cart-games{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+    background-color: #bee4ff;
+    border-radius: 5px;
+}
+.cart-remove{
+    cursor: pointer;
+    color: #001360;
+}
+.game{
+    background-size: cover;
+}
+.game1{
+    background-image: url('../../Images/Game_images/fortnite.jpeg');
+    background-position: center;
+}
+.game2{
+    background-image: url('../../Images/Game_images/pubg.jpg');
+    background-position: center;
+}
+.game3{
+    background-image: url('../../Images/Game_images/nfs_unbound.jpg');
+    background-position: left;
+}
+.game4{
+    background-image: url('../../Images/Game_images/asphalt_9.jpg');
+    background-position: center;
+}
+.game5{
+    background-image: url('../../Images/Game_images/gta5.jpg');
+    background-position: center;
+}
+.game6{
+    background-image: url('../../Images/Game_images/minecraft.jpg');
+    background-position: top center;
+}
+.game7{
+    background-image: url('../../Images/Game_images/black_wang.jpeg');
+    background-position: top center;
+}
+.game8{
+    background-image: url('../../Images/Game_images/godofwar.jpg');
+    background-position: top center;
+}
